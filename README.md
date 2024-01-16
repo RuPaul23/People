@@ -1,63 +1,47 @@
-<<<<<<< HEAD
+# People GitHub Repository
 
-# people
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+## Overview
 
-### System requirements
+Welcome to the People repository! This project is aimed at enhancing communication and accessibility for individuals with diverse needs. The People repository consists of four key features:
 
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
+1. **RetinaVision**: An object detection system that utilizes computer vision to identify objects in the environment and provides information about them through voice communication.
 
-### Figma design guidelines for better UI accuracy
+2. **SigHnd**: A sign language detection tool that leverages camera input to interpret sign language gestures. SigHnd facilitates communication with individuals who use sign language as their primary means of expression.
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
+3. **MuteTalk**: A text-to-voice generator designed to assist those who prefer or need to communicate through voice but may face challenges in doing so. MuteTalk converts text input into spoken words, enabling smooth conversations.
 
-### Check the UI of the entire app
+4. **SignAR**: A real-time text-to-AR generator that transforms typed text into augmented reality representations of sign language hands. SignAR enhances communication by providing a visual representation of sign language gestures corresponding to the entered text.
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+## Features
 
-### Application structure
-After successful build, your application structure should look like this:
-                    
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
-### How to format your code?
+### RetinaVision
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+- Object Detection: Utilizes advanced computer vision techniques to identify and categorize objects in the surroundings.
+- Voice Output: Communicates information about detected objects through a voice interface.
 
-### How you can improve code readability?
+### SigHnd
 
-Resolve the errors and warnings that are shown in the application.
+- Sign Language Detection: Uses camera input to interpret sign language gestures.
+- Communication Aid: Facilitates communication with individuals who use sign language as their primary means of expression.
 
-### Support
+### MuteTalk
 
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
-=======
-# People
->>>>>>> ee50145ceb315fd24011062036154f697b76afd7
+- Text-to-Voice Conversion: Generated typed text into spoken words.
+- Accessibility: Supports users who may have difficulty using their voice for communication.
+
+### SignAR
+
+- Real-time Text-to-AR: Generates augmented reality representations of sign language hands based on typed text input.
+- Visual Communication: Enhances communication by providing a visual representation of sign language gestures.
+
+## Getting Started
+
+This project is currently under development, and we are in the prototype testing phase. 
+
+## Contributing
+
+We welcome contributions from the community to improve and expand the capabilities of the People project. If you have ideas, bug reports, or want to contribute code.
+
+## Acknowledgments
+
+We would like to express our gratitude to the open-source community for their valuable contributions and support in making the People project a reality. Thank you for helping us create a more inclusive and accessible world.
