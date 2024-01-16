@@ -1,0 +1,1 @@
+ D:\\Desktop\\Projects\\People\\people-v1.0.1\\.dart_tool\\flutter_build\\234db9b49d9733a51b1df8ed7f54447e\\native_assets.yaml: 

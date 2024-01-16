@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.people.app-mergeDebugResources-20:/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\paulr\\.gradle\\caches\\transforms-3\\86ad5d755ff8cd23467159c0e3ad134f\\transformed\\jetified-zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    }
+                }
+            ]
+        }
+    ]
+}

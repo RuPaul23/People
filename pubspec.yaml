@@ -1,0 +1,39 @@
+name: people
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  smooth_page_indicator: ^1.1.0
+  intl: ^0.18.0
+  camera: 0.10.5+9
+  qr_code_scanner: ^1.0.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSansSemiBold.ttf
+          weight: 600
