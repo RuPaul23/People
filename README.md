@@ -6,7 +6,7 @@ Welcome to the People repository! This project is aimed at enhancing communicati
 
 1. **RetinaVision**: An object detection system that utilizes computer vision to identify objects in the environment and provides information about them through voice communication.
 
-2. **SigHnd**: A sign language detection tool that leverages camera input to interpret sign language gestures. SigHnd facilitates communication with individuals who use sign language as their primary means of expression.
+2. **SignHand**: A sign language detection tool that leverages camera input to interpret sign language gestures. SigHnd facilitates communication with individuals who use sign language as their primary means of expression.
 
 3. **MuteTalk**: A text-to-voice generator designed to assist those who prefer or need to communicate through voice but may face challenges in doing so. MuteTalk converts text input into spoken words, enabling smooth conversations.
 
@@ -19,7 +19,7 @@ Welcome to the People repository! This project is aimed at enhancing communicati
 - Object Detection: Utilizes advanced computer vision techniques to identify and categorize objects in the surroundings.
 - Voice Output: Communicates information about detected objects through a voice interface.
 
-### SigHnd
+### SignHand
 
 - Sign Language Detection: Uses camera input to interpret sign language gestures.
 - Communication Aid: Facilitates communication with individuals who use sign language as their primary means of expression.
