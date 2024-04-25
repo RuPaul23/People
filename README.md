@@ -12,6 +12,13 @@ Welcome to the People repository! This project is aimed at enhancing communicati
 
 4. **SignAR**: A real-time text-to-AR generator that transforms typed text into augmented reality representations of sign language hands. SignAR enhances communication by providing a visual representation of sign language gestures corresponding to the entered text.
 
+## Prototype
+
+
+https://github.com/RuPaul23/People/assets/105512611/3b168ee7-5b94-4a8f-874b-384257db12f6
+
+
+
 ## Features
 
 ### RetinaVision
